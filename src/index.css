@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 
 	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #1E201E;
+	color: #080908;
+	background-color: #ffffff;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -21,8 +23,13 @@ body {
 	min-height: 100vh;
 }
 
+.rt-BaseButton {
+	cursor: pointer !important;
+}
+
 .gm-post {
 	border-radius: 12px;
+	border: 1px solid #080908;
 }
 
 .hero {
